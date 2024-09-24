@@ -4,9 +4,9 @@ import { useState } from 'react'
 function App() {
  
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <h1 className="text-3xl font-bold underline text-red-500">
+      Hello world!
+    </h1>
   )
 }
 
