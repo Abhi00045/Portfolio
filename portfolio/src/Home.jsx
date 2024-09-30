@@ -1,6 +1,5 @@
-import "./Home.module.css"
-import "./index.css"
-const Home =()=>{
+import "./home.css"
+const Homepage = ()=>{
 
     return(
         <>
@@ -8,4 +7,4 @@ const Home =()=>{
         </>
     )
 }
-export default Home
+export default Homepage;
