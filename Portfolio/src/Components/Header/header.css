@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+*{
+    font-family: "Gugi", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin:20px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    div h1{
+        font-family: "Gugi", sans-serif;
+        font-weight: 1000;
+        font-style:normal; 
+        font-size: 23px;
+    }
+    .sections{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        border: 2px solid rebeccapurple;
+        padding: 20px;
+        border-radius: 25px;
+        background: rgba(48, 35, 106, 0.423); 
+        position: fixed;
+        margin-left: 1090px;
+        margin-top: 30px;
+    }
+}
+a:hover{
+   color: rgb(187, 187, 187);         
+}
