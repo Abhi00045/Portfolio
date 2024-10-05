@@ -6,9 +6,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 25px;
+    padding: 7px;
+    border: 2px solid rebeccapurple;
+    background-color:rgba(48, 35, 106, 0.184) ;
+    color: rgba(245, 245, 245, 0.522);
+}
 nav{
-    margin:20px;
+    margin:10px;
     padding: 10px;
     /* border: 2px solid red; */
     color: whitesmoke;
@@ -26,16 +35,41 @@ nav{
     .sections{
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 30px;
         border: 2px solid rebeccapurple;
-        padding: 20px;
+        padding: 15px;
         border-radius: 25px;
         background: rgba(48, 35, 106, 0.423); 
         position: fixed;
         margin-left: 1090px;
         margin-top: 30px;
+        .hori-bar{
+            display: none;
+        }
+        #under-bar{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+#under-bar:hover{
+
+    .hori-bar{
+        display: block;
+        height: 3px;
+        background-color: rgba(89, 75, 151, 0.838) ;
+        animation: bar-animate 0.7s ease-in  ;
     }
 }
 a:hover{
    color: rgb(187, 187, 187);         
+}
+@keyframes bar-animate {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }
