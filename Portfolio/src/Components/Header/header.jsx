@@ -32,6 +32,7 @@ export const Header = ()=>{
                 <div className="hori-bar"></div>
                 </div>
                 <div className="flex flex-row gap-6 text-base">
+                    {/* hii */}
                     {
                        Contacts.map((contacts)=>(
                         <a href={contacts.link} key={contacts.name} className="text-lg"><i  className={contacts.icon}></i></a>
