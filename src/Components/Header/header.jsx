@@ -1,4 +1,4 @@
-import {Contacts} from "../../Components/contacts"
+import {Contacts} from "../contacts"
 import './header.css'
 import github from './github.svg'
 import 'primeicons/primeicons.css';
