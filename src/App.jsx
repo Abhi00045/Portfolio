@@ -12,14 +12,6 @@ function App() {
 
   return (
    <>
-   {/* <img src={skills} alt="" /> */}
-   {/* <video
-        autoPlay
-        muted
-        loop
-        className='absolute rotate-180 top-[-400px] md:top-[-340px] left-0 z-0 w-full h-full object-cover'>
-            <source src={blackhole} type='video/webm'></source>
-        </video> */}
         <Header/>  
         
    </>
