@@ -170,20 +170,21 @@
   .profileRight{
     /* margin-left: 400px; */
     img{
-        /* padding-left: 100px; */
-        transform: translate(42px, 18px);
+        /* padding-left: 100px;
+        width: 140px; */
+        /* transform: translate(30px, 17px); */
     }
     animation: sidefromLeft 6s infinite ease-in-out 1s;
   }
   @keyframes sidefromLeft {
     0%{
-        transform: translate(42px, 18px);
+        transform: translate(30px, 17px);
     }
     50%{
-        transform: translate(-2.1rem, -1ex);
+        transform: translate(-2.1rem, 0ex);
     }
     100%{
-        transform: translate(42px, 17px);
+        transform: translate(30px, 17px);
     }
     
   }

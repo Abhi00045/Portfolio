@@ -3,6 +3,7 @@ import './header.css'
 import github from './github.svg'
 import 'primeicons/primeicons.css';
 import { Home } from "../Home/Home";
+import { Projects } from "../Projects/projects";
         
 
 export const Header = ()=>{
@@ -41,6 +42,8 @@ export const Header = ()=>{
             </div>
         </nav>
         <Home/>
+        need to do 
+        <Projects/> 
         </>
     )
 }

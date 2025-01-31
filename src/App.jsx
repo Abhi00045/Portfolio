@@ -7,6 +7,7 @@ import './App.css'
 import { Header } from './Components/Header/header'
 import { Home } from './Components/Home/Home';
 // import blackhole from './assets/blackhole.webm'
+// import { Projects } from './Components/Projects/projects';
 
 function App() {
 
