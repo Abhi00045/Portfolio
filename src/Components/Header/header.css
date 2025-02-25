@@ -37,12 +37,12 @@ nav{
         flex-direction: row;
         align-items: center;
         gap: 30px;
-        border: 2px solid rebeccapurple;
+        border: 2px solid rgba(102, 51, 153, 0.636);
         padding: 15px;
         border-radius: 25px;
-        background: rgba(48, 35, 106, 0.423); 
+        background: rgba(32, 25, 59, 0.429); 
         position: fixed;
-        margin-left: 1090px;
+        margin-left: 1120px;
         margin-top: 30px;
         .hori-bar{
             display: none;

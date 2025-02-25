@@ -22,15 +22,15 @@ export const Header = ()=>{
             <div className="sections">
                 <div className="under-bar" id="under-bar">
                 <a href="#Home">Home</a>
-                <div className="hori-bar"></div>
+                {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="under-bar" id="under-bar">
                 <a href="#">Skills</a>
-                <div className="hori-bar"></div>
+                {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="under-bar" id="under-bar">
                 <a href="#">Projects</a>
-                <div className="hori-bar"></div>
+                {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="flex flex-row gap-6 text-base">
                     {/* hii */}
@@ -43,7 +43,7 @@ export const Header = ()=>{
         </nav>
         <Home/>
         need to do 
-        <Projects/> 
+        {/* <Projects/>  */}
         </>
     )
 }
