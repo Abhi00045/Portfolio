@@ -22,7 +22,7 @@ export const Header = ()=>{
             <div className="sections">
                 <div className="under-bar" id="under-bar">
                 <a href={<Home/>}>About</a>
-                
+
                 {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="under-bar" id="under-bar">
@@ -42,8 +42,8 @@ export const Header = ()=>{
                 </div>
             </div>
         </nav>
-        <Home/>
-        need to do 
+        {/* <Home/> */}
+        <Contacts/>
         {/* <Projects/>  */}
         </>
     )
