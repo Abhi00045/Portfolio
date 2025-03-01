@@ -1,9 +1,9 @@
-import {Contacts} from "../contacts"
+import {Contacts} from "../../Pages/contacts"
 import './header.css'
 import github from './github.svg'
 import 'primeicons/primeicons.css';
 import { Home } from "../Home/Home";
-import { Projects } from "../Projects/projects";
+import { Projects } from "../../Pages/projects";
         
 
 export const Header = ()=>{
@@ -21,15 +21,16 @@ export const Header = ()=>{
             </div>
             <div className="sections">
                 <div className="under-bar" id="under-bar">
-                <a href="#Home">Home</a>
+                <a href={<Home/>}>About</a>
+                
                 {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="under-bar" id="under-bar">
-                <a href="#">Skills</a>
+                <a href={<Projects/>}>Projects</a>
                 {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="under-bar" id="under-bar">
-                <a href="#">Projects</a>
+                <a href={<Contacts/>}>Contact</a>
                 {/* <div className="hori-bar"></div> */}
                 </div>
                 <div className="flex flex-row gap-6 text-base">
