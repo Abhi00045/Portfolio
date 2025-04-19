@@ -1,23 +1,36 @@
-import { useState } from 'react'
+import Navbar from "./Components/Navbar"
+import Loader from "./Components/pageLoader";
+import './main.css'
+import About from "./Pages/About";
+import { Home } from "./Pages/Home"
+import { useState, useEffect } from "react"
 
-import 'primeicons/primeicons.css';
-        
-import './App.css'
-// import skills from './assets/skills.svg' 
-import { Header } from './Components/Header/header'
-import { Home } from './Components/Home/Home';
-import Router from './Routers/Router';
-// import blackhole from './assets/blackhole.webm'
-// import { Projects } from './Components/Projects/projects';
 
 function App() {
+ 
+  const [showDiv, setShowDiv] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowDiv(true);
+    }, 5000); // 3000ms = 3 seconds
+
+    // Optional cleanup (good practice)
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-   <>
-     {/* <Router/> */}
-      <Header/>  
-        
-   </>
+    <div>
+      {showDiv ? (
+       <>
+       <Navbar/>
+       <Home/>
+       <About/>
+       </> 
+      ) : (
+      <Loader/>
+      )}
+    </div>
   )
 }
 

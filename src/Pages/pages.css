@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.container{
+  font-family: "Cinzel", serif;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    /* height: 100%; */
+    .left{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        .profileOne{
+            h1{
+                font-size: 60px;
+                font-family: "Cinzel", serif;
+                font-weight: 1000;
+                /* .name-font:hover{
+                  cursor: pointer;
+                  font-size: 70px;
+
+                } */
+            }
+            h3
+            {
+              font-size: 4vw;
+              font-family: "Cinzel", serif;
+              font-weight: 800;
+              color: transparent;
+              background: linear-gradient(to right,#000000,#dc7d0a);
+              -webkit-background-clip: text;
+               span{
+                font-size: 4vw;
+    font-family: "Cinzel", serif;
+    font-weight: 800;
+    color: transparent;
+    background: linear-gradient(to right,#080808,#dc7d0a);
+    -webkit-background-clip: text;
+               } 
+            }
+        }
+    }
+}
+.changeheader::before{
+    content: "Front-end";
+    animation: changehead infinite 5s ease-in-out;
+    /* color: rgb(194, 52, 52); */
+        /* animation: header-width 0.5s ease-in; */
+}
+.two{
+    font-size: 16px;
+    h4{
+        span{      
+    font-family: "Gugi", sans-serif;
+        }
+    }
+}
+@keyframes changehead {
+    0% {
+        content: "Front-end";
+        /* color: rgb(194, 52, 52); */
+      }
+      50% {
+        content: "Full-stack";
+        /* color: rgb(255, 33, 33); */
+      }
+    
+}
+@keyframes header-width {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
+/* span{
+    color: rgba(117, 96, 210, 0.91) ; 
+} */
+.profileOne h1,span{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.change-text::before {
+    content: "design";
+    animation: change infinite 10s;
+  }
+
+  
+  @keyframes change {
+    0% {
+      content: "design";
+      
+    }
+    50% {
+      content: "create";
+    }
+  
+    100% {
+      transform: translateX(-50%);
+      content: "design";
+    }
+  }
+
+  .two{
+    font-family: "Emilys Candy", serif;
+  }
+  
+  /* * glitch  */
+  .responsive {
+    display: inline-block;
+  font-family: "Emilys Candy", serif;
+    animation: stretch 5s cubic-bezier(0.4, 1.4, 0.75, 0.9) infinite;
+    transform-origin: center;
+  }
+  
+  .responsive:nth-of-type(1) {
+    animation-delay: 3s;
+  }
+  
+  .responsive :nth-of-type(2) {
+    animation-delay: 0.8s;
+  }
+  
+  .responsive :nth-of-type(3) {
+    animation-delay: 4.8s;
+  }
+  
+  .responsive :nth-of-type(4) {
+    animation-delay: 2s;
+  }
+  
+  .responsive :nth-of-type(5) {
+    animation-delay: 1.2s;
+  }
+  
+  .responsive :nth-of-type(6) {
+    animation-delay: 3.6s;
+  }
+  
+  .responsive :nth-of-type(7) {
+    animation-delay: 2.4s;
+  }
+  
+  .responsive :nth-of-type(8) {
+    animation-delay: 3.2s;
+  }
+  
+  p span:nth-of-type(9) {
+    animation-delay: 4s;
+  }
+  
+  p span:nth-of-type(10) {
+    animation-delay: 1.6s;
+  }
+  
+  @keyframes stretch {
+    5% {
+      transform: scaleX(10);
+      opacity: 0.1;
+    }
+  
+    15% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+  }
+
+  .profileRight{
+    /* margin-left: 400px; */
+    img{
+        /* padding-left: 100px;
+        width: 140px; */
+        /* transform: translate(30px, 17px); */
+    }
+    animation: sidefromLeft 6s infinite ease-in-out 1s;
+  }
+  @keyframes sidefromLeft {
+    0%{
+        transform: translate(30px, 17px);
+    }
+    50%{
+        transform: translate(-2.1rem, 0ex);
+    }
+    100%{
+        transform: translate(30px, 17px);
+    }
+    
+  }
+  #bar{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #nav-part2 h4 {
+    padding: 5px;
+    border: 2px solid #000000d6;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000f5;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+#nav-part2 h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 28, 28);
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+#nav-part2 h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+#nav-part2 h4 a {
+    color: #000000bb;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+#nav-part2 h4:hover a {
+    color: #fff;
+}
+
+.text{
+  text-align: center;
+  font-family: "Emilys Candy", serif;
+  font-size: 4vw;
+}
+#main-about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  gap: 30px;
+  /* background-image: url(../Assets/profile.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; */
+
+  /* .left-about{
+    background-image: url(../Assets/profile.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+  } */
+  .right-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 19px;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-overflow: clip;
+    text-decoration: wavy;
+  }
+}
