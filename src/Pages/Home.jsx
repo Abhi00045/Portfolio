@@ -1,4 +1,4 @@
-import { Contacts } from "./contacts"
+// import { Contacts } from "./contacts"
 // React
 // import { motion } from "framer-motion"
 import './pages.css'
@@ -7,6 +7,7 @@ import github from '../Assets/github.svg'
 import linkdin from '../Assets/linkdin.svg'
 import twitter from '../Assets/twitter.svg'
 import resume from '../Assets/resume.svg'
+import profile from '../Assets/profile.jpeg'
 export const Home = ()=>{
     
     return(
@@ -76,6 +77,11 @@ export const Home = ()=>{
                 borderRadius:"50%"
             }} />
         </div> */}
+        <div className="image"> 
+            <img src={profile} alt="" height="auto" width='400px' style={{
+                borderRadius:"25px"
+            }} />
+        </div>
             
         </div>
         </>

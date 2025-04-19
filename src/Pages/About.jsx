@@ -1,3 +1,4 @@
+import EducationTimeline from './contacts';
 import './pages.css'
 // import profile from '../Assets/profile.jpeg'
 const About = ()=>{
@@ -28,9 +29,7 @@ When I’m not coding, I’m probably tweaking my setup, watching tech breakdown
 I'm always up for a tech talk, debugging rant, or random deep dive into why CSS behaves like it has trust issues. 
 </p>
 
-<p>
-Let’s connect and build something awesome (or at least make the console happy)! 🚀
-            </p>
+<EducationTimeline/>
         </div>
     </div>
     </>
