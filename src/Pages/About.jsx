@@ -1,13 +1,10 @@
 import './pages.css'
-import profile from '../Assets/profile.jpeg'
+// import profile from '../Assets/profile.jpeg'
 const About = ()=>{
 
     return <>
     <h1 className='text'>About me..</h1>
     <div className="main-about" id="main-about">
-        <div className="left-about" id="left-about">
-            {/* <img src={profile} alt="" /> */}
-        </div>
         <div className="right-about" id="right-about">
             <pre>
             👋 Hey, I’m Abhinav!

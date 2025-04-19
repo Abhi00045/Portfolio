@@ -25,7 +25,7 @@
         gap: 15px;
         .profileOne{
             h1{
-                font-size: 60px;
+                font-size: 75px;
                 font-family: "Cinzel", serif;
                 font-weight: 1000;
                 /* .name-font:hover{
@@ -36,14 +36,14 @@
             }
             h3
             {
-              font-size: 4vw;
+              font-size: 5vw;
               font-family: "Cinzel", serif;
               font-weight: 800;
               color: transparent;
               background: linear-gradient(to right,#000000,#dc7d0a);
               -webkit-background-clip: text;
                span{
-                font-size: 4vw;
+                font-size: 5vw;
     font-family: "Cinzel", serif;
     font-weight: 800;
     color: transparent;
@@ -61,7 +61,7 @@
         /* animation: header-width 0.5s ease-in; */
 }
 .two{
-    font-size: 16px;
+    font-size: 18px;
     h4{
         span{      
     font-family: "Gugi", sans-serif;

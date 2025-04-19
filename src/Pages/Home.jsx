@@ -1,6 +1,6 @@
 import { Contacts } from "./contacts"
 // React
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 import './pages.css'
 import leetcode from '../Assets/code.svg'
 import github from '../Assets/github.svg'
@@ -11,7 +11,10 @@ export const Home = ()=>{
     
     return(
         <>
-        <div className="container" id='Home'>
+        <div className="container" id='Home'style={{
+            height:"90vh",
+            width:"90vw"
+        }} >
             <div className="left">
                <div className="profileOne">
                 <h1>
@@ -68,6 +71,11 @@ export const Home = ()=>{
                   
                 </div>
             </div>
+            {/* <div className="left-about" id="left-about">
+            <img src={profile} alt="" height='90%' width='400px' style={{
+                borderRadius:"50%"
+            }} />
+        </div> */}
             
         </div>
         </>

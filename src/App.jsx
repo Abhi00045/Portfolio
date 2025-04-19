@@ -4,6 +4,7 @@ import './main.css'
 import About from "./Pages/About";
 import { Home } from "./Pages/Home"
 import { useState, useEffect } from "react"
+import MainLayout from "./Pages/Layout/mainLayout";
 
 
 function App() {
@@ -23,9 +24,7 @@ function App() {
     <div>
       {showDiv ? (
        <>
-       <Navbar/>
-       <Home/>
-       <About/>
+       <MainLayout/>
        </> 
       ) : (
       <Loader/>
