@@ -1,4 +1,5 @@
 import './pages.css'
+import blog from '../Assets/image.png'
 
 const Work = ()=>{
 
@@ -6,9 +7,9 @@ const Work = ()=>{
         {
             title:'',
             description:'',
-            image : '',
+            image : blog,
             live_link :'',
-            Github_link:''
+            Github_link:'https://github.com/Abhi00045/Blog.git'
 
         }
     ];
