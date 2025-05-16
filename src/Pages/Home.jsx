@@ -44,33 +44,7 @@ export const Home = ()=>{
             Building robust web applications with Typescript, Next.js,<br /> MongoDB, Express.js, React, and Node.js
             </p>
                 </div> 
-                <div id="bar">
-                   
-                  <a href="https://leetcode.com/u/Abhi00045/">
-                  <img src={leetcode} alt="" height="20px" width="20px" />
-                  </a>
-
-                  <a href="https://github.com/Abhi00045">
-                  <img src={github} alt="" height="20px" width="20px" />
-                  </a>
-
-                  <a href="https://www.linkedin.com/in/abhinavreddy-rajidi-988633280/">
-                  <img src={linkdin} alt="" height="20px" width="20px" />
-                  </a>
-
-                  <a href="https://x.com/rabhinavreddie">
-                  <img src={twitter} alt="" height="20px" width="20px" />
-                  </a>
-
-                  <a href="https://drive.google.com/file/d/1-FeMDU8r8q_v9gAxp5tNdqVQ3vn2-pi4/view?usp=drive_link">
-                  <img src={resume} alt="" height="20px" width="20px"  />
-                  </a>
-
-                  {/* <div id="nav-part2">
-                     <h4><a href="https://drive.google.com/file/d/1-FeMDU8r8q_v9gAxp5tNdqVQ3vn2-pi4/view?usp=drive_link">Resume</a></h4>
-                  </div> */}
-                  
-                </div>
+                
             </div>
             {/* <div className="left-about" id="left-about">
             <img src={profile} alt="" height='90%' width='400px' style={{

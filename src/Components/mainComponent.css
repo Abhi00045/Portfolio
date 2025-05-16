@@ -10,11 +10,15 @@
 }
 
 .nav-component{
-    height: 70px;
-    width: 75%;
-    padding: 10px;
+    /* height: 70px;
+    width: 75%; */
+    /* padding: 10px;
     margin-left: 180px;
-    margin-top: 10px;
+    margin-top: 10px; */
+    padding: 25px;
+    /* margin-top: 30px; */
+    width: fit-content;
+    margin-left: 120px;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -22,16 +26,17 @@
     align-items: center;
     border: 2px solid rgb(0, 0, 0);
     color: white;
-    background: linear-gradient(to right,#201f1ff9,#343230f0);
+    background: linear-gradient(to right,#ffffffe0,#fffffef0);
     position: sticky;
-    top: 10px;
+    
+    top: 40px;
     /* border-bottom: 1px solid black; */
     .sections ul{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        gap: 80px;
+        gap: 100px;
         li{
             font-weight: 300;
             cursor: pointer;

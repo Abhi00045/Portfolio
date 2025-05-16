@@ -1,4 +1,5 @@
 import React from "react";
+import './pages.css'
 
 const EducationTimeline = () => {
   const education = [
@@ -15,10 +16,16 @@ const EducationTimeline = () => {
       subtitle: "Higher Secondary Education",
       logo: "🏫",
     },
+    {
+      duration : 'march - 2019',
+      title : 'Teja international high school',
+      subtitle:'secondary Education',
+      logo:'🏫'
+    }
   ];
 
   return (
-    <div className="bg-gray-900 text-white p-6 rounded-lg max-w-3xl mx-auto">
+    <div className="bg-gray-900 text-white p-6 rounded-lg max-w-3xl mx-auto" id="Eduction-background">
       {education.map((edu, index) => (
         <div
           key={index}
