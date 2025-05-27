@@ -31,7 +31,7 @@ I'm always up for a tech talk, debugging rant, or random deep dive into why CSS 
 </p>
 
 <EducationTimeline/>
-{/* <Work/> */}
+<Work/>
         </div>
     </div>
     </>
